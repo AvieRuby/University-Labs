@@ -58,4 +58,6 @@ int main()
         bmi.set(x , y);
         bmi.calculate();
         bmi.display();
+
+        return 0;
     }

@@ -21,6 +21,8 @@ int main()
 
         cout << "Mark average is: " << avg;
 
+        return 0;
+
     }
 
     

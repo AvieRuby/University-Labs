@@ -29,4 +29,6 @@ int main()
         cout << "You have entered: " << arr[0] << ", " << arr[1] << ", " << arr[2] << ", " << arr[3] << ", " << arr[4] << endl;
         
         cout << "Sum of the numbers entered is: " << Sum (arr);
+
+        return 0;
     }
