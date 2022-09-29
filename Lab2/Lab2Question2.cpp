@@ -7,10 +7,10 @@ class Box
         public:
             int length , breadth , height ;
 
-            Box ( int x , int y , int z);
+            Box ( int x , int y , int z );
     };
 
-Box::Box( int x , int y , int z )
+Box::Box ( int x , int y , int z )
     {
         length = x;
         breadth = y;
@@ -19,8 +19,8 @@ Box::Box( int x , int y , int z )
 
 int main()
     {
-        Box Box1( 5 , 6 , 7);
-        Box Box2( 10 , 12 , 13);
+        Box Box1( 5 , 6 , 7 );
+        Box Box2( 10 , 12 , 13 );
 
 
         cout << "Volume of Box 1: " << (Box1.length * Box1.breadth * Box1.height) << endl;

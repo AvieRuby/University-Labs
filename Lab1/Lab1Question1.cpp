@@ -13,7 +13,7 @@ int main()
                 cin >> arr[i];
             }
 
-        for(i = 1;i < 4; ++i) 
+        for(i = 1; i < 4; ++i) 
             {
                 if(arr[0] < arr[i])
                 arr[0] = arr[i];

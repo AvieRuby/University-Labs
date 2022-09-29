@@ -11,17 +11,17 @@ int main()
             cin >> x;
 
 
-            if ( x % 2 == 0 && x != 0 )
+            if (x % 2 == 0 && x != 0)
                 {
                     cout << x << " is even." << endl;
                 }
 
-            if ( x % 2 != 0 && x != 0 )
+            if (x % 2 != 0 && x != 0)
                 {
                     cout << x << " is odd." << endl;
                 }
 
-            if ( x == 0)
+            if (x == 0)
                 {
                     cout << "Thank you.";
                 }

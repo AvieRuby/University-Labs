@@ -12,7 +12,7 @@ int main()
         cin >> x;
 
         cout << "Enter two operands : ";
-        for ( int i = 0; i < 2; i++ )
+        for (int i = 0; i < 2; i++)
             {
                 cin >> arr[i];
             }
