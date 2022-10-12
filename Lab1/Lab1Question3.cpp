@@ -4,13 +4,20 @@ using namespace std;
 
 int main()
     {
-        char x;
+        char x , y;
         int arr[2] , i , ans;
 
+            cout << "Enter an operator (+,-,*,/) : ";
+            cin >> x;
 
-        cout << "Enter an operator (+,-,*,/) : ";
-        cin >> x;
-
+            while(x != '+' && x != '-' && x != '*' && x != '/')
+                {
+                    cout << "Invalid Input Please Try Again" << endl;
+                    cout << "Enter an operator (+,-,*,/) : ";
+                    cin >> x;
+                }
+                
+                       
         cout << "Enter two operands : ";
         for (int i = 0; i < 2; i++)
             {
