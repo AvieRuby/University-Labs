@@ -12,13 +12,13 @@ int main()
 
         for(i = 1; i <= x; i++)
             {
-                for(j=1; j<=y; j++)
+                for(j = 1; j <= y; j++)
                     cout<<" ";
                     y--;
 
                 for(j = 1; j <= (2 * i - 1); j++)
-                    cout<< j ;
-                    cout<<endl;
+                    cout << j ;
+                    cout << endl;
             }
 
 
@@ -29,10 +29,10 @@ int main()
                     z++;
 
                 for(j = 1; j<=(2 * (x - i) - 1); j++)
-                    cout<< j;
-                    cout<<endl;
+                    cout << j;
+                    cout << endl;
             }
 
-            cout<<endl;
+            cout << endl;
             return 0;
         }

@@ -2,13 +2,15 @@
 
 using namespace std;
 
+const int SIZE = 5;
+
 int main() 
     {
-        int arr[5] , i = 1 , avg;
+        float arr[SIZE] , i = 1 , avg;
 
-        while (i <= 5)
+        while (i <= SIZE)
             {
-                for (int j = 0; j < 5; j++)
+                for (int j = 0; j < SIZE; j++)
                     {
                         cout << "Enter mark: ";
                         cin >> arr[j];

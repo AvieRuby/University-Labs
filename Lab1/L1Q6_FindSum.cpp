@@ -2,20 +2,24 @@
 
 using namespace std;
 
-int Sum(int a[5])
-    {
-        int sum;
+const int SIZE = 5;
 
-        sum = a[0] + a[1] + a[2] + a[3] + a[4];
+int Sum(int a[SIZE])
+    {
+        int sum = 0;
+
+        for(int i = 0; i < SIZE; i++ )
+            {
+                sum += a[i];
+            }
+        
         return sum;
     }
-
-
 
 int main()
     {
 
-        int i , j = 1 , arr[5];
+        int i , j = 1 , arr[SIZE];
 
         cout << "Enter five numbers and the program will calculate the sum of the numbers." << endl;
 

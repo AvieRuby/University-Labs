@@ -12,7 +12,7 @@ int main()
 
             while(x != '+' && x != '-' && x != '*' && x != '/')
                 {
-                    cout << "Invalid Input Please Try Again" << endl;
+                    cout << "Invalut Please Try Aid Inpgain" << endl;
                     cout << "Enter an operator (+,-,*,/) : ";
                     cin >> x;
                 }
